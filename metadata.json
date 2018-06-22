@@ -1,0 +1,26 @@
+{
+  "author": "urbancode",
+  "checksums": {
+    "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+    "lib/facter/env.rb": "c9a9270cdb2af2cfd7097c057b844cc6",
+    "manifests/agent/install/puppet.pp": "84456cc74d597e54bebb7e90a2257ba1",
+    "templates/agent.install.properties.erb": "281dfb94ee6b8fb97fdbf20e9e04bcc9",
+    "tests/init.pp": "084e9990c4d426882d4b0946ba988e36",
+    "Modulefile": "061a037fafc282afa586a2a1f81ff483",
+    "manifests/init.pp": "167268188ee4aa389f4845271d9f149d",
+    "README.md": "73a96fde1ee07903034ad13abf1daaf6"
+  },
+  "source": "git://github.com/UrbanCode/puppet-udeploy-agent.git",
+  "project_page": "http://github.com/UrbanCode/puppet-udeploy-agent",
+  "license": "Apache License, Version 2.0",
+  "dependencies": [
+
+  ],
+  "types": [
+
+  ],
+  "description": "Module installs UrbanCode uDeploy agent based on provided parameters.",
+  "name": "urbancode-udeploy",
+  "version": "1.0.1",
+  "summary": "Module installs UrbanCode uDeploy agent based on provided parameters."
+}

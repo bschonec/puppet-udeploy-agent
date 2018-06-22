@@ -1,0 +1,30 @@
+# Installation directory of the agent
+locked/agent.home=<%= @destination_dir %>/urbancode/udagent
+
+# Path to the Java installation
+uDeploy/java.home=<%= @jh %>
+
+# Name of the agent (should be unique)
+locked/agent.name=<%= @agent_name %>
+
+# IP or host of the server or relay to connect to
+locked/agent.jms.remote.host=<%= @server_host %>
+locked/agent.jms.remote.port=<%= @agent_port %>
+
+# IP or host of the relay
+#locked/agent.http.proxy.host=<proxy_host>
+#locked/agent.http.proxy.port=20080
+
+# If the agent should verify the certificate of the server or relay it connects to
+locked/agent.mutual_auth=false
+
+# Keystore setting if using a pre-built keystore and not the one created during installation
+#locked/agent.keystore=/opt/urbancode/keys/common.keystore
+#locked/agent.keystore.pwd=changeit
+
+# Windows service installation options
+locked/agent.service=false
+locked/agent.service.name=<%= @agent_name %>
+locked/agent.service.login=.\localsystem
+locked/agent.service.password=nopass
+locked/agent.service.autostart=false
